@@ -5,3 +5,6 @@
 ```
 yarn install
 ```
+
+## Teams
+Sophie et Nico
