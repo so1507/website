@@ -1,1 +1,7 @@
 # website
+
+## Installation
+
+```
+yarn install
+```
