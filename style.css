@@ -7,18 +7,54 @@
 body {
   color: #fff;
   background-color: #0c0c0c;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 12px 0 10px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #0c0c0c;
+  font-weight: bold;
 }
 
 button {
   cursor: pointer;
   border-radius: 4px;
-  padding: 10px 16px;
+  padding: 12px;
   border: none;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  margin: 4px;
+  font-weight: bold;
 }
 
 li {
   list-style: none;
   display: inline-block;
+}
+
+input {
+  border: none;
+  min-height: 32px;
+  padding: 10px 4px 4px 4px;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px #f0f0f0 solid;
 }
 
 .nav {
@@ -42,4 +78,25 @@ li {
   letter-spacing: 2px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.form {
+  background-color: #fff;
+  margin: 200px auto;
+  width: 350px;
+  border-radius: 8px;
+  color: #0c0c0c;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  justify-items: stretch;
+}
+
+.form-inputs {
+  display: grid;
+  padding: 10px 0 28px 0;
+  row-gap: 24px;
 }
