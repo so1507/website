@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>JS</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-title">Sophie</div>
+      <ul class="nav-links">
+        <li>Haute Couture</li>
+        <li>Mode</li>
+        <li>Lunettes</li>
+        <li>Parfums</li>
+        <li>Maquillage</li>
+      </ul>
+      <a href="register.html">
+        <button>S'inscrire</button>
+      </a>
+    </nav>
+    <form class="form">
+      <div class="form-container">
+        <h2>Se connecter</h2>
+        <div class="form-inputs">
+          <input autocomplete="email" type="email" placeholder="Email" />
+          <input
+            autocomplete="current-password"
+            type="password"
+            placeholder="Mot de passe"
+          />
+        </div>
+        <button onclick="login()">Connexion</button>
+        <p style="padding-top: 10px">
+          Vous n'avez pas encore de compte?
+          <a href="register.html">S'inscrire</a>
+        </p>
+      </div>
+    </form>
+  </body>
+  <script type="module" src="script.js"></script>
+</html>
